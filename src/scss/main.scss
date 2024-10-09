@@ -40,32 +40,3 @@ video {
   background-color: #006d77;
   padding: 16px;
 }
-
-.hide div {
-  .row + .row {
-    margin-top: 0px;
-  }
-
-  .row > .col,
-  .row > [class^="col-"] {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-color: #00000000;
-    border: #00000000;
-  }
-  div {
-    div {
-      .row + .row {
-        margin-top: 16px;
-      }
-
-      .row > .col,
-      .row > [class^="col-"] {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        background-color: rgba(86, 61, 124, 0.15);
-        border: 1px solid rgba(86, 61, 124, 0.2);
-      }
-    }
-  }
-}
